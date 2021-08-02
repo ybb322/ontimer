@@ -375,6 +375,12 @@ body {
 
 .pricing-plans {
   margin-bottom: 100vw;
+  &__text-wrap {
+    position: relative;
+    left: 40%;
+    opacity: 0%;
+    transition-duration: 1.3s;
+  }
   &__title {
     text-align: center;
     font-family: tt-hoves;
@@ -464,20 +470,36 @@ body {
   }
 }
 .item-1 {
+  position: relative;
+  right: 40%;
+  opacity: 0%;
+  transition-duration: 1.3s;
   background-color: rgba(187, 168, 255, 0.849);
 }
 
 .item-2 {
+  position: relative;
+  left: 40%;
+  opacity: 0%;
+  transition-duration: 1.3s;
   background-color: rgba(220, 210, 255, 0.849);
 }
 
 .item-3 {
+  position: relative;
+  right: 40%;
+  opacity: 0%;
+  transition-duration: 1.3s;
   background-color: rgb(239, 234, 255);
 }
 
 .footer {
   padding: 0;
   &__social-media-title {
+    position: relative;
+    left: 40%;
+    opacity: 0%;
+    transition-duration: 1.3s;
     padding-top: 10vw;
     padding-bottom: 10vw;
     text-align: center;
@@ -489,6 +511,10 @@ body {
     line-height: 7vw;
   }
   &__social-media-icons {
+    position: relative;
+    right: 40%;
+    opacity: 0%;
+    transition-duration: 1.3s;
     margin-bottom: 15vw;
   }
 }

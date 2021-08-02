@@ -12,6 +12,12 @@ const specialFeaturesTitle = document.querySelector ('.special-features-wrap__ti
 const specialOne = document.querySelector ('.special-1');
 const specialTwo = document.querySelector ('.special-2');
 const specialThree = document.querySelector ('.special-3');
+const pricingPlansTitle = document.querySelector ('.pricing-plans__text-wrap')
+const itemOne = document.querySelector ('.item-1')
+const itemTwo = document.querySelector ('.item-2')
+const itemThree = document.querySelector ('.item-3')
+const footerTitle = document.querySelector ('.footer__social-media-title');
+const footerIcons = document.querySelector ('.footer__social-media-icons');
 let offset = 0;
 
 headerMenuButton.addEventListener('click', function (){
@@ -55,13 +61,37 @@ window.addEventListener ('scroll', function (){
         specialOne.style.opacity = offset + 100 + '%';
         specialOne.style.right = offset - 0 + '%';
     }
-    if (scrolled >= (scrollable / 2.6)) {
+    if (scrolled >= (scrollable / 2.75)) {
         specialTwo.style.opacity = offset + 100 + '%';
         specialTwo.style.left = offset - 0 + '%';
     }
-    if (scrolled >= (scrollable / 2.1)) {
+    if (scrolled >= (scrollable / 2.15)) {
         specialThree.style.opacity = offset + 100 + '%';
         specialThree.style.right = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 1.65)) {
+        pricingPlansTitle.style.opacity = offset + 100 + '%';
+        pricingPlansTitle.style.left = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 1.50)) {
+        itemOne.style.opacity = offset + 100 + '%';
+        itemOne.style.right = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 1.33)) {
+        itemTwo.style.opacity = offset + 100 + '%';
+        itemTwo.style.left = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 1.18)) {
+        itemThree.style.opacity = offset + 100 + '%';
+        itemThree.style.right = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 1.01)) {
+        footerTitle.style.opacity = offset + 100 + '%';
+        footerTitle.style.left = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 1.01)) {
+        footerIcons.style.opacity = offset + 100 + '%';
+        footerIcons.style.right = offset - 0 + '%';
     }
 })
 
