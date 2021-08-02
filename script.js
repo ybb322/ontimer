@@ -73,15 +73,15 @@ window.addEventListener ('scroll', function (){
         pricingPlansTitle.style.opacity = offset + 100 + '%';
         pricingPlansTitle.style.left = offset - 0 + '%';
     }
-    if (scrolled >= (scrollable / 1.50)) {
+    if (scrolled >= (scrollable / 1.61)) {
         itemOne.style.opacity = offset + 100 + '%';
         itemOne.style.right = offset - 0 + '%';
     }
-    if (scrolled >= (scrollable / 1.33)) {
+    if (scrolled >= (scrollable / 1.42)) {
         itemTwo.style.opacity = offset + 100 + '%';
         itemTwo.style.left = offset - 0 + '%';
     }
-    if (scrolled >= (scrollable / 1.18)) {
+    if (scrolled >= (scrollable / 1.27)) {
         itemThree.style.opacity = offset + 100 + '%';
         itemThree.style.right = offset - 0 + '%';
     }
