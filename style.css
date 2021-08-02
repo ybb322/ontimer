@@ -236,15 +236,16 @@ body {
 }
 
 .we-offer {
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  position: relative;
-  left: 50%;
-  opacity: 0%;
-  margin-bottom: 40vw;
+  margin-bottom: 35vw;
 }
 
 .we-offer__title {
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+  position: relative;
+  left: 40%;
+  opacity: 0%;
+  margin-bottom: 40vw;
   text-align: center;
   font-family: tt-hoves;
   color: #3b000f;
@@ -256,6 +257,11 @@ body {
 }
 
 .we-offer__items {
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+  position: relative;
+  right: 40%;
+  opacity: 0%;
   margin: 0;
 }
 
@@ -293,6 +299,11 @@ body {
 }
 
 .special-features-wrap__title {
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+  position: relative;
+  left: 40%;
+  opacity: 0%;
   text-align: center;
   font-family: tt-hoves;
   color: #3b000f;
@@ -300,7 +311,7 @@ body {
   font-weight: 1000;
   letter-spacing: -0.03em;
   line-height: 10vw;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .special-features {
@@ -338,6 +349,30 @@ body {
 .special-features__pic-self {
   -webkit-filter: drop-shadow(1.3vw 1.5vw 7px rgba(100, 0, 25, 0.5));
           filter: drop-shadow(1.3vw 1.5vw 7px rgba(100, 0, 25, 0.5));
+}
+
+.special-1 {
+  position: relative;
+  right: 40%;
+  opacity: 0%;
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+}
+
+.special-2 {
+  position: relative;
+  left: 40%;
+  opacity: 0%;
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+}
+
+.special-3 {
+  position: relative;
+  right: 40%;
+  opacity: 0%;
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
 }
 
 .pricing-plans {

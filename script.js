@@ -6,7 +6,12 @@ const buttonLineOne = document.querySelector ('.header__button-line-1');
 const buttonLineTwo = document.querySelector ('.header__button-line-2');
 const buttonLineThree = document.querySelector ('.header__button-line-3');
 const headerNav = document.querySelector ('.header__nav');
-const weOffer = document.querySelector ('.we-offer');
+const weOfferTitle = document.querySelector ('.we-offer__title');
+const weOfferItems = document.querySelector ('.we-offer__items');
+const specialFeaturesTitle = document.querySelector ('.special-features-wrap__title');
+const specialOne = document.querySelector ('.special-1');
+const specialTwo = document.querySelector ('.special-2');
+const specialThree = document.querySelector ('.special-3');
 let offset = 0;
 
 headerMenuButton.addEventListener('click', function (){
@@ -34,8 +39,29 @@ window.addEventListener ('scroll', function (){
 /*     console.log (scrolled);
     console.log (scrollable); */
     if (scrolled >= (scrollable / 12)) {
-        weOffer.style.opacity = offset + 100 + '%';
-        weOffer.style.left = offset - 0 + '%';
+        weOfferTitle.style.opacity = offset + 100 + '%';
+        weOfferTitle.style.left = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 8.5)) {
+        weOfferItems.style.opacity = offset + 100 + '%';
+        weOfferItems.style.right = offset - 0 + '%';
+    }
+
+    if (scrolled >= (scrollable / 5)) {
+        specialFeaturesTitle.style.opacity = offset + 100 + '%';
+        specialFeaturesTitle.style.left = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 3.8)) {
+        specialOne.style.opacity = offset + 100 + '%';
+        specialOne.style.right = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 2.6)) {
+        specialTwo.style.opacity = offset + 100 + '%';
+        specialTwo.style.left = offset - 0 + '%';
+    }
+    if (scrolled >= (scrollable / 2.1)) {
+        specialThree.style.opacity = offset + 100 + '%';
+        specialThree.style.right = offset - 0 + '%';
     }
 })
 
