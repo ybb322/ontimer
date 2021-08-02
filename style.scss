@@ -32,7 +32,16 @@ body {
     rgb(219, 174, 255) 58.49%,
     rgb(72, 58, 153) 58.5%,
     rgb(72, 58, 153) 58.69%,
-    rgb(125, 49, 190) 58.7%,
+    rgb(125, 49, 190) 58.7%
+  );
+}
+
+.page-container {
+  overflow: hidden;
+  background-image: linear-gradient(
+    145deg,
+    #ffffff00 0%,
+    #ffffff00 59%,
     rgb(38, 10, 63) 90.3%,
     rgb(103, 72, 129) 90.32%,
     rgb(103, 72, 129) 90.79%,
@@ -40,33 +49,6 @@ body {
     rgb(28, 0, 94) 90.99%,
     rgb(17, 0, 32) 91%
   );
-}
-
-.page-container {
-  overflow: hidden;
-  width: 100%;
-  /*   background: linear-gradient(
-    145deg,
-    #172755 5%,
-    rgb(49, 3, 24) 13%,
-    rgba(255, 8, 90, 0.76) 13%,
-    rgba(255, 8, 90, 0.76) 13.49%,
-    #051647e1 13.5%,
-    #051647e1 13.69%,
-    rgb(234, 227, 245) 13.7%,
-    rgb(234, 227, 245) 57.98%,
-    rgb(219, 174, 255) 58%,
-    rgb(219, 174, 255) 58.49%,
-    rgb(72, 58, 153) 58.5%,
-    rgb(72, 58, 153) 58.69%,
-    rgb(125, 49, 190) 58.7%,
-    rgb(38, 10, 63) 90.3%,
-    rgb(103, 72, 129) 90.32%,
-    rgb(103, 72, 129) 90.79%,
-    rgb(28, 0, 94) 90.8%,
-    rgb(28, 0, 94) 90.99%,
-    rgb(17, 0, 32) 91%
-  ); */
 }
 
 .header {
@@ -269,6 +251,10 @@ body {
 }
 
 .we-offer {
+  transition-duration: 1s;
+  position: relative;
+  left: 50%;
+  opacity: 0%;
   margin-bottom: 40vw;
   &__title {
     text-align: center;
